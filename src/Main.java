@@ -30,7 +30,7 @@ public class Main {
                 System.out.print("Please type the second number: ");
                 int secondN = scan.nextInt();
                 scan.nextLine();
-                if (secondN == 0) {
+                if (secondN == 0 && operation.equals("/")) {
                     System.out.println("Cannot divide by zero");
                     break one;
                 }
