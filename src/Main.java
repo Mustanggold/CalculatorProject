@@ -56,5 +56,6 @@ public class Main {
             String playAgain = scan.nextLine();
             if (!playAgain.equalsIgnoreCase("continue")) break;
         }
+        scan.close();
     }
 }
